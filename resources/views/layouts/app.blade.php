@@ -6,7 +6,12 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
         <title>{{ config('app.name', 'Laravel') }}</title>
-
+        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/theme.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
         <!-- Fonts -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
 
@@ -32,5 +37,10 @@
                 {{ $slot }}
             </main>
         </div>
+        <script src="assets/js/jquery.min.js"></script> 
+        <script src="assets/js/bootstrap.min.js"></script> 
+        <script src="assets/js/wow.min.js"></script> 
+        <script src="assets/js/slick.min.js"></script> 
+        <script src="assets/js/custom.js"></script>
     </body>
 </html>
